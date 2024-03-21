@@ -1,0 +1,76 @@
+ *{
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+  background-color: #ebe0e0;
+}
+.hero{
+  height: 95vh;
+  width: 100vw;
+  background-image: url(https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#heading{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+
+}
+.container1{
+  margin-top: 5px;
+ height: 420px;
+ width: 300px;
+ background-size: contain;
+ background-color: #bc7984;
+ border: 2px solid black;
+ border-radius: 5px;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+img{
+  height: 200px;
+  margin: 10px;
+}
+#buy{
+color: green;
+}
+li{
+  /* background-color: white; */
+  list-style: none;
+  align-items: center;
+  text-align: left;
+}
+.review{
+  margin:10px 10px 20px 20px;
+  color: green;
+  float: right;
+
+}
+
+.containers{
+  width: 95vw;
+  /* height: auto; */
+  background-color: rgba(187, 187, 33, 0.566);
+  margin: 0px 10px;
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+#chicken{
+  font-weight: 700;
+}
+#price{
+  color: rgb(125, 86, 86);
+  text-decoration: underline;
+}
+.mybutton{
+  width: 150px;
+  margin-top: 5px ;
+}
+#name{
+  font-weight: 700;
+  color: aqua;
+} 
